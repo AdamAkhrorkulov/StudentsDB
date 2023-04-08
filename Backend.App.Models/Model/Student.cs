@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StudentBackendApplicationData
+﻿namespace Backend.App.Models.Model
 {
     public class Student
     {
@@ -12,7 +6,5 @@ namespace StudentBackendApplicationData
         public string Age { get; set; }
         public string Major { get; set; }
         public string Course { get; set; }
-
-        
     }
 }

@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace BackendWebApplication1;
+namespace Backend.App.Web;
 
 public class Program
 {

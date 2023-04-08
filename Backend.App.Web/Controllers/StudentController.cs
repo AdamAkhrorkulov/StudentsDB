@@ -1,18 +1,19 @@
 ﻿using System.Collections.Generic;
+using Backend.App.Data.Sevices;
+using Backend.App.Models.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using StudentBackendApplicationData;
 
-namespace BackendWebApplication1
+namespace Backend.App.Web.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class StudentBackendController : ControllerBase
+    public class StudentController : ControllerBase
     {
 
-        private readonly ILogger<StudentBackendController> _logger;
+        private readonly ILogger<StudentController> _logger;
 
-        public StudentBackendController(ILogger<StudentBackendController> logger)
+        public StudentController(ILogger<StudentController> logger)
         {
             _logger = logger;
         }
@@ -26,6 +27,6 @@ namespace BackendWebApplication1
             return res;
 
         }
-        
+
     }
 }
