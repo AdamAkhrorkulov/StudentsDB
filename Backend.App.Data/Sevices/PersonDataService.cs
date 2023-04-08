@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Data;
 using Backend.App.Models.Model;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 
 namespace Backend.App.Data.Sevices
 {
     public class PersonDataService
     {
+        private readonly IConfiguration _config;
         public string _connectionStr = "server=localhost; database=DemoDB; Integrated Security=True; TrustServerCertificate=True";
         public PersonDataService()
         {
-
+            //_config = config;
+            //_connectionStr = _config["ConnectionStrings:DemoDbConnection"];
         }
 
         public IEnumerable<Person> GetData()

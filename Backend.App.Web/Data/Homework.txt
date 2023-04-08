@@ -1,0 +1,20 @@
+install notepad ++, docker, resharper, dotpeek, dottrace, dot memory, 
+postman
+
+abstract vs interface. 
+OOP principles
+
+SOLID
+Single Responsibility Principle (SRP)
+Open/Closed Principle = open to extend, but closed to modify
+Liskov’s Substitution Principle (LSP)
+Interface Segregation Principle (ISP)
+Dependency Inversion Principle (DIP)
+
+
+curl "https://localhost:7219/WeatherForecast"
+
+homework
+
+get method. 
+read data from  txt file and display to swagger. 

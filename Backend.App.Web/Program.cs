@@ -9,9 +9,7 @@ public class Program
     private static void Main(string[] args)
     {
         var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
-
-       
-
+        
         builder.Services.AddControllers();
        
         builder.Services.AddEndpointsApiExplorer();

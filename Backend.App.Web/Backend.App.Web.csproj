@@ -15,5 +15,11 @@
 	  <ProjectReference Include="..\Backend.App.Models\Backend.App.Models.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Controllers\FileController.cs">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Compile>
+	</ItemGroup>
+
 
 </Project>
