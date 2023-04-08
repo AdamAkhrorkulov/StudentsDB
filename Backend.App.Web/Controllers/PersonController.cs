@@ -31,10 +31,5 @@ namespace Backend.App.Web.Controllers
         //GetStudentData, will get data from db. 
         //create StudentDataService = 
         //create Student class in models project
-
-        public void Test(string[] args)
-        {
-                
-        }
     }
 }
